@@ -8,6 +8,17 @@ NestJS‑сервис с REST‑эндпоинтами для EVM и Cosmos (SEI
 $ npm install
 ```
 
+Создайте файл `.env` (или скопируйте из примера) и заполните переменные:
+
+```bash
+cp .env.example .env
+
+# .env
+PORT=3000
+EVM_RPC_URL=https://sei-evm-rpc.publicnode.com
+COSMOS_RPC_URL=https://sei-m.rpc.n0ok.net:443
+```
+
 ## Запуск
 
 ```bash
